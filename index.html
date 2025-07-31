@@ -399,24 +399,6 @@
             });
         });
     </script>
-     <script>
-        const heroImages = [
-        'Hero1.jpeg'
-             ];
 
-        let currentHeroImageIndex = 0;
-        const heroSection = document.getElementById('home');
-
-        function changeHeroBackground() {
-        heroSection.style.backgroundImage = `url(${heroImages[currentHeroImageIndex]})`;
-        currentHeroImageIndex = (currentHeroImageIndex + 1) % heroImages.length;
-        }
-
-    // Initialize with the first image
-        changeHeroBackground();
-
-    // Change background every 4 seconds
-        setInterval(changeHeroBackground, 4000);
-    </script>
 </body>
 </html>
