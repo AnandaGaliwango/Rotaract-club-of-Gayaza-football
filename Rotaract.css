@@ -43,8 +43,3 @@
         .smooth-scroll {
             scroll-behavior: smooth;
         }
-        .home{
-            transition: background-image 1.5s ease-in-out;
-            background-size: cover;
-            background-position: center;
-        }
